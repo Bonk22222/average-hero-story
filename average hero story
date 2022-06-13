@@ -1,0 +1,28 @@
+print("Once upon a time, There was a Dragon that existed on it's mountain of gold. The dragon was curious of human "
+      "civilization and decided to kidnap their princess, This is where you come in. Now go and save the princess.")
+print("You arrived at the great sword Excalibur. What do you want to do?")
+while True:
+      Sword = input("pull out the sword/punch the nearest person/kill yourself/ leave")
+      if Sword == ('pull out the sword'):
+            print("You have obtained and sword of Excalibur and left for the mountain where the princess is")
+            print("You have reached the mountain of gold and see the princess on the dragon back."
+                  "What should you do?")
+            Enter_Battle = input("rush toward the dragon while dodging it's attack/ leave/ use fireball/"
+                                 " kill yourself")
+            if Enter_Battle == ('rush toward the dragon while dodging it attacks'):
+                  print("you ran up at the location where the weakpoint is and killing it. You have won and "
+                        "saved the princess")
+            if Enter_Battle == ('leave'):
+                  print("You left and your epic is over")
+            if Enter_Battle == ('use fireball'):
+                  print("The fireball bounced off the dragon scale and you died")
+            if Enter_Battle == ('kill yourself'):
+                  print("You died!!")
+            break
+      if Sword == ("punch the nearest person"):
+            print("You are now in jail and your story have ended")
+      if Sword == ("kill yourself"):
+            print("you dead")
+      if Sword == ("leave"):
+            print("You left and your story ended")
+      break
